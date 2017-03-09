@@ -49,7 +49,7 @@ Gulp.task('webpack', (callback) => {
             sourceMapFilename: '[name].map.js'
         },
         resolve: {
-            extensions: ['', '.js', '.jsx']
+            extensions: ['.js', '.jsx']
         },
         module: {
             loaders: [{
